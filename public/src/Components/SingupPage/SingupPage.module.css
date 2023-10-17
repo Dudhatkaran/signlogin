@@ -1,0 +1,110 @@
+.mainlogin {
+    background: linear-gradient(#44c4e778, #44c4e75c), url("https://38.media.tumblr.com/d23deac40b06633b79520a8552f40b94/tumblr_nb1uhrRrge1st5lhmo1_1280.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    font-family: "Roboto";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.form {
+    background: #fff;
+    width: 300px;
+    max-width: 99%;
+    padding: 40px 40px 30px 40px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.form h2 {
+    margin: 0 0 20px;
+    text-align: center;
+    line-height: 1;
+    color: #44c4e7;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 15px 0 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    color: #ccc;
+    font-family: "Roboto";
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    transition: 0.2s linear;
+}
+
+.form input:focus {
+    color: #333;
+    border: 1px solid #44c4e7;
+}
+
+.form button {
+    cursor: pointer;
+    background: #44c4e7;
+    width: 100%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form button:hover {
+    background: #369cb8;
+}
+
+.form h4 {
+    font-size: 14px;
+    color: #434343;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.btn button {
+    background: transparent;
+    color: #45bfe1;
+    cursor: pointer;
+    width: auto;
+    border: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.btn button:hover {
+    color: #2c8ea9;
+    background-color: transparent;
+}
+
+.errors {
+    font-size: 14px;
+    color: red;
+    padding: 0;
+}

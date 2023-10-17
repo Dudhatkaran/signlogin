@@ -1,0 +1,106 @@
+.home {
+    height: 95vh;
+    background: linear-gradient(#1f586874, #224c5883), url('https://images.unsplash.com/photo-1503951458645-643d53bfd90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homepage {
+    width: 1200px;
+    height: 100%;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mypage {
+    text-align: center;
+}
+
+.mypage h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+}
+
+.mypage p {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.mypage button {
+    background-color: #41aac6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.4s;
+    border: none;
+}
+
+.mypage button:hover {
+    background-color: #338ba3;
+}
+
+.homsection {
+    width: 100%;
+    background-color: #d1f5ff;
+    padding: 40px 0;
+}
+
+.section {
+    text-align: center;
+}
+
+.section h2 {
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 4px solid #338ba3;
+    display: inline;
+}
+
+.section p {
+    margin: 25px 0;
+}
+
+.section button {
+    background-color: #41aac6;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+
+.section button:hover {
+    background-color: #338ba3;
+}
+
+.section {
+    width: 1250px;
+    max-width: 95%;
+    margin: auto;
+}
+
+.datatable table {
+    border: 1px solid black;
+}
+
+.datatable table th {
+    padding: 12px;
+    text-align: left;
+    background-color: #338ba3;
+    color: white;
+    border: 1px solid #ddd;
+}
+
+.datatable table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #767676;
+}
